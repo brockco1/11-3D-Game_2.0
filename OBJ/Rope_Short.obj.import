@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Rope_Short.obj-a6628a2d07df7c5bd5c0756a12b2d881.mesh"
+
+[deps]
+
+files=[ "res://.import/Rope_Short.obj-a6628a2d07df7c5bd5c0756a12b2d881.mesh" ]
+
+source_file="res://OBJ/Rope_Short.obj"
+dest_files=[ "res://.import/Rope_Short.obj-a6628a2d07df7c5bd5c0756a12b2d881.mesh", "res://.import/Rope_Short.obj-a6628a2d07df7c5bd5c0756a12b2d881.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
