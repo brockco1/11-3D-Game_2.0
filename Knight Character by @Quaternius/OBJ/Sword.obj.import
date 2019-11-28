@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Sword.obj-37b2a0b6299adce21a08b57585b33879.mesh"
+
+[deps]
+
+files=[ "res://.import/Sword.obj-37b2a0b6299adce21a08b57585b33879.mesh" ]
+
+source_file="res://Knight Character by @Quaternius/OBJ/Sword.obj"
+dest_files=[ "res://.import/Sword.obj-37b2a0b6299adce21a08b57585b33879.mesh", "res://.import/Sword.obj-37b2a0b6299adce21a08b57585b33879.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
