@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Helmet3.obj-03531ac4f3b265bbeea7ffa57767fb5e.mesh"
+
+[deps]
+
+files=[ "res://.import/Helmet3.obj-03531ac4f3b265bbeea7ffa57767fb5e.mesh" ]
+
+source_file="res://Knight Character by @Quaternius/OBJ/Helmet3.obj"
+dest_files=[ "res://.import/Helmet3.obj-03531ac4f3b265bbeea7ffa57767fb5e.mesh", "res://.import/Helmet3.obj-03531ac4f3b265bbeea7ffa57767fb5e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
