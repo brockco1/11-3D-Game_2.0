@@ -126,6 +126,26 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -15.5 )
 
 [node name="coin" parent="Coins/coinholder1" instance=ExtResource( 10 )]
 
+[node name="coinholder2" type="Spatial" parent="Coins"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 23, 0, -15.5 )
+
+[node name="coin" parent="Coins/coinholder2" instance=ExtResource( 10 )]
+
+[node name="coinholder3" type="Spatial" parent="Coins"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -9.5 )
+
+[node name="coin" parent="Coins/coinholder3" instance=ExtResource( 10 )]
+
+[node name="coinholder4" type="Spatial" parent="Coins"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -25 )
+
+[node name="coin" parent="Coins/coinholder4" instance=ExtResource( 10 )]
+
+[node name="coinholder5" type="Spatial" parent="Coins"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 32.5, 0, -15.5 )
+
+[node name="coin" parent="Coins/coinholder5" instance=ExtResource( 10 )]
+
 [node name="Control" type="Control" parent="."]
 
 [node name="Sprite" type="Sprite" parent="Control"]
@@ -153,4 +173,8 @@ script = ExtResource( 13 )
 
 [node name="Timer" type="Timer" parent="Control/Counter"]
 [connection signal="body_entered" from="Coins/coinholder1/coin" to="Coins/coinholder1/coin" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Coins/coinholder2/coin" to="Coins/coinholder2/coin" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Coins/coinholder3/coin" to="Coins/coinholder3/coin" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Coins/coinholder4/coin" to="Coins/coinholder4/coin" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Coins/coinholder5/coin" to="Coins/coinholder5/coin" method="_on_Coin_body_entered"]
 [connection signal="timeout" from="Control/Counter/Timer" to="Control/Counter" method="_on_Timer_timeout"]
