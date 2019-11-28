@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Lever.obj-05f0d72846037c9da3cb59bae327879f.mesh"
+
+[deps]
+
+files=[ "res://.import/Lever.obj-05f0d72846037c9da3cb59bae327879f.mesh" ]
+
+source_file="res://OBJ/Lever.obj"
+dest_files=[ "res://.import/Lever.obj-05f0d72846037c9da3cb59bae327879f.mesh", "res://.import/Lever.obj-05f0d72846037c9da3cb59bae327879f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
