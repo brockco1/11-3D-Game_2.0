@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/BearTrap_Open.obj-7923c2f071cfdf11eeca6e664a6a0c87.mesh"
+
+[deps]
+
+files=[ "res://.import/BearTrap_Open.obj-7923c2f071cfdf11eeca6e664a6a0c87.mesh" ]
+
+source_file="res://OBJ/BearTrap_Open.obj"
+dest_files=[ "res://.import/BearTrap_Open.obj-7923c2f071cfdf11eeca6e664a6a0c87.mesh", "res://.import/BearTrap_Open.obj-7923c2f071cfdf11eeca6e664a6a0c87.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
