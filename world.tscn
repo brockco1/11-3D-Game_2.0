@@ -1,0 +1,156 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://Platform_TopMiddle.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Tree1.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Charater.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Rock2.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Spike_Group.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Grass.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Sign_Right.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Wolf.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Fence.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Coin.tscn" type="PackedScene" id=10]
+[ext_resource path="res://OBJ/gold-coins-26.png" type="Texture" id=11]
+[ext_resource path="res://Redkost.otf" type="DynamicFontData" id=12]
+[ext_resource path="res://Counter.gd" type="Script" id=13]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0.423529, 0.529412, 0.192157, 1 )
+
+[sub_resource type="PlaneMesh" id=2]
+material = SubResource( 1 )
+size = Vector2( 100, 100 )
+
+[sub_resource type="ConcavePolygonShape" id=3]
+data = PoolVector3Array( 50, 0, 50, -50, 0, 50, 50, 0, -50, -50, 0, 50, -50, 0, -50, 50, 0, -50 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 56
+outline_color = Color( 0.0117647, 0.0117647, 0.0117647, 1 )
+font_data = ExtResource( 12 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 90
+font_data = ExtResource( 12 )
+
+[node name="World" type="Spatial"]
+
+[node name="Ground " type="StaticBody" parent="."]
+
+[node name="MeshInstance" type="MeshInstance" parent="Ground "]
+mesh = SubResource( 2 )
+material/0 = null
+
+[node name="DirectionalLight" type="DirectionalLight" parent="Ground /MeshInstance"]
+transform = Transform( 1, 0, 0, 0, -0.90292, 0.42981, 0, -0.42981, -0.90292, 0, 32.15, 0.457752 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Ground "]
+shape = SubResource( 3 )
+
+[node name="Camera" type="Camera" parent="Ground "]
+transform = Transform( 1, 0, 0, 0, 0.939693, 0.34202, 0, -0.34202, 0.939693, -2.5, 10, 18.5 )
+
+[node name="StaticBody" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.09771, 0, 0 )
+
+[node name="StaticBody4" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.09771, 0, 0 )
+
+[node name="StaticBody3" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.09771, 0, 0 )
+
+[node name="StaticBody2" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.09771, 0, 0 )
+
+[node name="StaticBody5" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, 0, -5 )
+
+[node name="Charater" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -1, 0.5 )
+
+[node name="Rock2" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6.5 )
+
+[node name="Spike_Group" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 13.5, 0, -22 )
+
+[node name="Grass" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 6 )
+
+[node name="Sign_Right" parent="." instance=ExtResource( 7 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
+
+[node name="Scene Root" parent="." instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.5 )
+
+[node name="Fence" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -1.5 )
+
+[node name="Fence4" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, 1, 1.5 )
+
+[node name="Fence3" parent="." instance=ExtResource( 9 )]
+transform = Transform( -0.0871558, 0, 0.996195, 0, 1, 0, -0.996195, 0, -0.0871558, -6, 0, 0 )
+
+[node name="Fence2" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 1.5 )
+
+[node name="Fence5" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, 1, -1.5 )
+
+[node name="StaticBody6" parent="." instance=ExtResource( 1 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 1, 10, 0, 0 )
+
+[node name="StaticBody7" parent="." instance=ExtResource( 1 )]
+transform = Transform( 3, 0, 0, 0, 4, 0, 0, 0, 1, 14, 0, 0 )
+
+[node name="Fence6" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 1.5, 1 )
+
+[node name="Fence7" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 1.5, -1.5 )
+
+[node name="Fence8" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 3.5, 1 )
+
+[node name="Fence9" parent="." instance=ExtResource( 9 )]
+transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, 16.5, 3.5, -1 )
+
+[node name="Fence10" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 3.5, -1.5 )
+
+[node name="Coins" type="Spatial" parent="."]
+
+[node name="coinholder1" type="Spatial" parent="Coins"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28, 0, -15.5 )
+
+[node name="coin" parent="Coins/coinholder1" instance=ExtResource( 10 )]
+
+[node name="Control" type="Control" parent="."]
+
+[node name="Sprite" type="Sprite" parent="Control"]
+position = Vector2( 846.429, 87.7347 )
+scale = Vector2( 0.115655, 0.148583 )
+texture = ExtResource( 11 )
+
+[node name="Label" type="Label" parent="Control"]
+margin_left = 909.101
+margin_top = 60.3647
+margin_right = 949.101
+margin_bottom = 119.365
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "X"
+
+[node name="Counter" type="Label" parent="Control"]
+margin_left = 951.0
+margin_top = 39.9501
+margin_right = 1020.0
+margin_bottom = 140.95
+custom_fonts/font = SubResource( 5 )
+text = "Q"
+script = ExtResource( 13 )
+
+[node name="Timer" type="Timer" parent="Control/Counter"]
+[connection signal="body_entered" from="Coins/coinholder1/coin" to="Coins/coinholder1/coin" method="_on_Coin_body_entered"]
+[connection signal="timeout" from="Control/Counter/Timer" to="Control/Counter" method="_on_Timer_timeout"]
