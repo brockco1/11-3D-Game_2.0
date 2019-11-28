@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Bomb.obj-b187b90ea2988225bbf36645cf60a63a.mesh"
+
+[deps]
+
+files=[ "res://.import/Bomb.obj-b187b90ea2988225bbf36645cf60a63a.mesh" ]
+
+source_file="res://OBJ/Bomb.obj"
+dest_files=[ "res://.import/Bomb.obj-b187b90ea2988225bbf36645cf60a63a.mesh", "res://.import/Bomb.obj-b187b90ea2988225bbf36645cf60a63a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
