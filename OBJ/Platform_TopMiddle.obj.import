@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Platform_TopMiddle.obj-4efd368a0ab1eadf3bca8ed2b63ce688.mesh"
+
+[deps]
+
+files=[ "res://.import/Platform_TopMiddle.obj-4efd368a0ab1eadf3bca8ed2b63ce688.mesh" ]
+
+source_file="res://OBJ/Platform_TopMiddle.obj"
+dest_files=[ "res://.import/Platform_TopMiddle.obj-4efd368a0ab1eadf3bca8ed2b63ce688.mesh", "res://.import/Platform_TopMiddle.obj-4efd368a0ab1eadf3bca8ed2b63ce688.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
