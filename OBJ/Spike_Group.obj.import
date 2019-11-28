@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spike_Group.obj-b504aca94e3923f6974afc9d57224c73.mesh"
+
+[deps]
+
+files=[ "res://.import/Spike_Group.obj-b504aca94e3923f6974afc9d57224c73.mesh" ]
+
+source_file="res://OBJ/Spike_Group.obj"
+dest_files=[ "res://.import/Spike_Group.obj-b504aca94e3923f6974afc9d57224c73.mesh", "res://.import/Spike_Group.obj-b504aca94e3923f6974afc9d57224c73.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
