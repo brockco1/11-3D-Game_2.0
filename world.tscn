@@ -177,4 +177,5 @@ script = ExtResource( 13 )
 [connection signal="body_entered" from="Coins/coinholder3/coin" to="Coins/coinholder3/coin" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Coins/coinholder4/coin" to="Coins/coinholder4/coin" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Coins/coinholder5/coin" to="Coins/coinholder5/coin" method="_on_Coin_body_entered"]
+[connection signal="coinCollected" from="Coins/coinholder5/coin" to="Control/Counter" method="_on_coin_coinCollected"]
 [connection signal="timeout" from="Control/Counter/Timer" to="Control/Counter" method="_on_Timer_timeout"]
