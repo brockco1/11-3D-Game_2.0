@@ -15,4 +15,4 @@ func _on_coin_collected():
 	
 	
 func _on_Timer_timeout():
-	get_tree().change_scene("res://YouWin,tscn")
+	get_tree().change_scene("res://YouWin.tscn")
