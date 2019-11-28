@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Club.obj-ffec271872fed9c8e58852456d7b4fc8.mesh"
+
+[deps]
+
+files=[ "res://.import/Club.obj-ffec271872fed9c8e58852456d7b4fc8.mesh" ]
+
+source_file="res://Knight Character by @Quaternius/OBJ/Club.obj"
+dest_files=[ "res://.import/Club.obj-ffec271872fed9c8e58852456d7b4fc8.mesh", "res://.import/Club.obj-ffec271872fed9c8e58852456d7b4fc8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
