@@ -6,7 +6,7 @@ func _ready():
 	text = String(coins)
 	
 	
-func _on_coin_collected():
+func _on_coin_coinCollected():
 	coins = coins + 1
 	_ready()
 	if coins ==5:
@@ -16,3 +16,4 @@ func _on_coin_collected():
 	
 func _on_Timer_timeout():
 	get_tree().change_scene("res://YouWin.tscn")
+
