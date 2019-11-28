@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Heart_Full.obj-08370e720b021d2aec54e0c70df5df16.mesh"
+
+[deps]
+
+files=[ "res://.import/Heart_Full.obj-08370e720b021d2aec54e0c70df5df16.mesh" ]
+
+source_file="res://OBJ/Heart_Full.obj"
+dest_files=[ "res://.import/Heart_Full.obj-08370e720b021d2aec54e0c70df5df16.mesh", "res://.import/Heart_Full.obj-08370e720b021d2aec54e0c70df5df16.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
