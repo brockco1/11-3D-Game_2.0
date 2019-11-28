@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Crate.obj-c04055e7fe8f1e62909a750e3f1e7d34.mesh"
+
+[deps]
+
+files=[ "res://.import/Crate.obj-c04055e7fe8f1e62909a750e3f1e7d34.mesh" ]
+
+source_file="res://OBJ/Crate.obj"
+dest_files=[ "res://.import/Crate.obj-c04055e7fe8f1e62909a750e3f1e7d34.mesh", "res://.import/Crate.obj-c04055e7fe8f1e62909a750e3f1e7d34.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
