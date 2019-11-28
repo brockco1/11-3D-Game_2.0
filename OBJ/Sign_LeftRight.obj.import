@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Sign_LeftRight.obj-e6af35b2df32bbeb3a8f5e73728feca3.mesh"
+
+[deps]
+
+files=[ "res://.import/Sign_LeftRight.obj-e6af35b2df32bbeb3a8f5e73728feca3.mesh" ]
+
+source_file="res://OBJ/Sign_LeftRight.obj"
+dest_files=[ "res://.import/Sign_LeftRight.obj-e6af35b2df32bbeb3a8f5e73728feca3.mesh", "res://.import/Sign_LeftRight.obj-e6af35b2df32bbeb3a8f5e73728feca3.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
